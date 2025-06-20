@@ -62,7 +62,7 @@ HeaderTraceV1:
     value_eth:
       type: string
       description: The value in ETH of the block
-    date_milliseconds:
+    proposer_send_timestamp_ms:
       type: string
       description: The getHeader request send time in milliseconds, parsed from the Date-Milliseconds header of the request.
     extra_data:
